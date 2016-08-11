@@ -24,3 +24,20 @@ label {
 	margin: 5px auto;
 	display:block;
 }
+
+/* Bouton submit */
+
+#signBtn {
+	padding:5px 10px;
+	background-color:aquamarine;
+	font-size:1.4em;
+	text-transform: uppercase;
+	color:white;
+	width:100%;
+}
+
+#signBtn:hover {
+	cursor: pointer;
+	color:lightgrey;
+	box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.65);
+}
