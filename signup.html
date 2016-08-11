@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulaire d'inscription</title>
+</head>
+<body>
+<form>
+	<h1>Inscription</h1>
+	<p>
+		<label for="dogName">Nom de votre chien:</label>
+		<input type="text"/>
+	</p>
+	<p>
+		<label for="dogBreed">Race:</label>
+		<select>
+			<option>Teckel</option>
+			<option>Berger Allemand</option>
+			<option>Caniche</option>
+			<option>Chiwawa</option>
+			<option>Lévrier Afghan</option>
+			<option>Rottweiler</option>
+			<option>Autre</option>
+		</select>
+	</p>
+	<p>
+		<label>Sexe:</label>
+		<input type="radio" name="dogSex">Mâle</input>
+		<input type="radio" name="dogSex">Femelle</input>
+		<input type="radio" name="dogSex">Indéterminé...</input>
+	</p>
+	<p>
+		<label>Une préférence pour l'accouplement?</label><br/>
+		<input type="radio" name="looking">Non, tout lui va.</input><br/>
+		<input  type="radio" name="looking">De préférence une bête du sexe opposé.</input><br/>
+		<input type="radio" name="looking">Sexe opposé et race identique</input><br/>
+	</p>
+	<input type="submit" value="Créer profil"/>
+</form>
+</body>
+</html>
